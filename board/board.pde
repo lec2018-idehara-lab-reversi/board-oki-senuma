@@ -50,7 +50,7 @@ void showBan(int[][] b)
           break;
         case AKI:
           break;
-        case KURO:fill(0,0,0);ellipse(round(80*x-40),round(80*y-40),72,72);
+        case KURO:fill(0,0,0);ellipse(round((x-0.5)*CELLSIZE),round((y-0.5)*CELLSIZE),72,72);
         
           break;
         case SHIRO:fill(255,255,255);ellipse(round(80*x-40),round(80*y-40),72,72);
